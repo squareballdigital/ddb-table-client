@@ -1,14 +1,18 @@
-# ddb-table-client
+# @squareball/ddb-table-client
 
 This package is intended as an (almost) drop-in replacement for [@aws-sdk/lib-dynamodb](https://npmjs.com/package/@aws-sdk/lib-dynamodb), with the only difference being that you don't have to specify the table on every command. Instead you specify the table once for the client object.
 
 This makes it easier to implement [single-table design](https://www.alexdebrie.com/posts/dynamodb-single-table/).
 
+## Documentation
+
+See [documentation](https://squareballdigital.github.io/ddb-table-client).
+
 ## Example
 
 ```typescript
 import { DynamoDBClient } from '@aws-sdk/client-dynamodb';
-import { DynamoDBTableClient, GetCommand } from 'ddb-table-client';
+import { DynamoDBTableClient, GetCommand } from '@squareball/ddb-table-client';
 
 const client = new DynamoDBClient({});
 
