@@ -2,6 +2,9 @@
   "name": "@squareball/ddb-table-client",
   "version": "0.1.0",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "author": {
     "email": "gordon@squareball.co",
     "name": "Gordon Leigh"
